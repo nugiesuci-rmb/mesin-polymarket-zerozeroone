@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '30 0 * * *'      # tiap hari 00:30 UTC = 07:30 WIB
   workflow_dispatch:           # tombol "Run workflow" manual
+    inputs:
+      tes_telegram:
+        description: 'Kirim pesan tes ke Telegram'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -29,6 +34,9 @@ jobs:
       - name: Jalankan mesin
         env:
           PM_BASE: data
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TG_PING: ${{ inputs.tes_telegram }}
         run: python engine.py
 
       - name: Siapkan halaman web
@@ -45,3 +53,15 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "update $(date -u +%F-%H%M)"
           git push
+
+      - name: Kabari Telegram kalau gagal
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -n "$TELEGRAM_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+              -d chat_id="${TELEGRAM_CHAT_ID}" \
+              --data-urlencode "text=⚠️ Mesin Polymarket GAGAL jalan. Buka tab Actions di GitHub untuk melihat sebabnya." > /dev/null
+          fi
