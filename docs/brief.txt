@@ -1,50 +1,60 @@
 Analisis kandidat Polymarket berikut. Untuk tiap market beri estimasi probabilitas
 kamu, selisih dengan harga pasar, keyakinan (rendah/sedang/tinggi), dan alasan singkat.
 
-- Will there be no Hormuz agreement? | harga: Yes 94% / No 6% | tutup 20 hari | likuiditas $312,448 | https://polymarket.com/event/who-wins-the-senate-pending-hormuz-agreement
-- Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8–12%? | harga: Yes 12% / No 88% | tutup 11 hari | likuiditas $98,492 | https://polymarket.com/event/brazil-presidential-election-second-round-margin-of-victory
-- Will Aleksandar Vučić be the next Prime Minister of Serbia? | harga: Yes 69% / No 31% | tutup 11 hari | likuiditas $138,990 | https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642
-- Will there be no change in Fed interest rates after the October 2026 meeting? | harga: Yes 76% / No 24% | tutup 14 hari | likuiditas $184,042 | https://polymarket.com/event/fed-decision-in-october-20260617190323537
-- Will the Democratic Party control the House after the 2026 Midterm elections? | harga: Yes 90% / No 10% | tutup 20 hari | likuiditas $2,566,636 | https://polymarket.com/event/which-party-will-win-the-house-in-2026
-- Will Benjamin Netanyahu be the next Prime Minister of Israel? | harga: Yes 26% / No 74% | tutup 13 hari | likuiditas $445,484 | https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election
-- 2026 Balance of Power: R Senate, R House | harga: Yes 8% / No 92% | tutup 20 hari | likuiditas $2,386,756 | https://polymarket.com/event/balance-of-power-2026-midterms
-- US announces end of Iranian blockade by October 31, 2026? | harga: Yes 12% / No 88% | tutup 17 hari | likuiditas $172,883 | https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080
-- US x Iran ceasefire continues through October 31? | harga: Yes 80% / No 20% | tutup 17 hari | likuiditas $495,405 | https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt
-- Milwaukee Brewers vs. Los Angeles Dodgers | harga: Milwaukee Brewers 52% / Los Angeles Dodgers 48% | tutup 7 hari | likuiditas $94,145 | https://polymarket.com/event/mlb-mil-lad-2026-10-14
+- Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8–12%? | harga: Yes 9% / No 91% | tutup 11 hari | likuiditas $113,458 | https://polymarket.com/event/brazil-presidential-election-second-round-margin-of-victory
+- Will Aleksandar Vučić be the next Prime Minister of Serbia? | harga: Yes 69% / No 31% | tutup 10 hari | likuiditas $131,220 | https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642
+- Will there be no change in Fed interest rates after the October 2026 meeting? | harga: Yes 72% / No 28% | tutup 14 hari | likuiditas $178,010 | https://polymarket.com/event/fed-decision-in-october-20260617190323537
+- Will the Democratic Party control the House after the 2026 Midterm elections? | harga: Yes 90% / No 10% | tutup 20 hari | likuiditas $2,388,257 | https://polymarket.com/event/which-party-will-win-the-house-in-2026
+- Will Benjamin Netanyahu be the next Prime Minister of Israel? | harga: Yes 28% / No 72% | tutup 13 hari | likuiditas $475,760 | https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election
+- 2026 Balance of Power: D Senate, D House | harga: Yes 62% / No 38% | tutup 20 hari | likuiditas $2,928,141 | https://polymarket.com/event/balance-of-power-2026-midterms
+- US announces end of Iranian blockade by October 31, 2026? | harga: Yes 8% / No 92% | tutup 17 hari | likuiditas $226,621 | https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080
+- US x Iran ceasefire continues through October 31? | harga: Yes 80% / No 20% | tutup 16 hari | likuiditas $614,839 | https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt
+- Will the Milwaukee Brewers win the 2026 World Series? | harga: Yes 57% / No 43% | tutup 16 hari | likuiditas $184,507 | https://polymarket.com/event/mlb-world-series-champion-2026
+- Will the Republican Party control the Senate after the 2026 Midterm elections? | harga: Yes 36% / No 64% | tutup 20 hari | likuiditas $2,617,360 | https://polymarket.com/event/which-party-will-win-the-senate-in-2026
 
 ===== POSISI SIMULASI SAAT INI (kirim juga ini ke Claude) =====
-- [baseline-favorit] Will there be no change in Fed interest rates after the October 2026 meeting? | beli Yes @ 84.5c | masuk 02 Oct 21:29 WIB | kini 76.5c | P/L -$0.95
-- [baseline-favorit] Will the Fed increase interest rates by 25 bps after the October 2026 meeting? | beli No @ 84.5c | masuk 02 Oct 21:29 WIB | kini 75.5c | P/L -$1.07
-- [baseline-favorit] US announces end of Iranian blockade by October 31, 2026? | beli No @ 77.5c | masuk 02 Oct 21:29 WIB | kini 88.5c | P/L +$1.42
-- [baseline-favorit] Will Flávio Bolsonaro win the 2026 Brazilian presidential election? | beli Yes @ 56.0c | masuk 02 Oct 21:29 WIB | kini 83.7c | P/L +$4.92
-- [baseline-favorit] Will the Milwaukee Brewers win the 2026 World Series? | beli No @ 83.9c | masuk 02 Oct 21:29 WIB | kini 54.4c | P/L -$3.52
-- [baseline-favorit] Will Benjamin Netanyahu be the next Prime Minister of Israel? | beli No @ 67.5c | masuk 02 Oct 21:29 WIB | kini 73.5c | P/L +$0.89
-- [baseline-favorit] Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election? | beli No @ 56.5c | masuk 02 Oct 21:29 WIB | kini 84.5c | P/L +$4.96
-- [baseline-favorit] Will the Republican Party control the Senate after the 2026 Midterm elections? | beli No @ 65.5c | masuk 02 Oct 21:29 WIB | kini 63.0c | P/L -$0.38
-- [baseline-favorit] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 54.4c | masuk 02 Oct 21:29 WIB | kini 51.9c | P/L -$0.44
-- [claude-A] US announces end of Iranian blockade by October 31, 2026? | beli No @ 82.5c | masuk 04 Oct 10:55 WIB | kini 88.5c | P/L +$0.73
-- [claude-A] Will there be no change in Fed interest rates after the October 2026 meeting? | beli No @ 18.5c | masuk 04 Oct 10:55 WIB | kini 23.5c | P/L +$2.70
-- [claude-A] Billionaire one-time wealth tax passes in California election 2026? | beli Yes @ 31.5c | masuk 04 Oct 10:59 WIB | kini 25.5c | P/L -$1.90
-- [fade-favorit] Will there be no change in Fed interest rates after the October 2026 meeting? | beli No @ 17.5c | masuk 08 Oct 10:40 WIB | kini 23.5c | P/L +$3.43
-- [fade-favorit] Will Iliana Iotova win the next Bulgarian presidential election? | beli No @ 15.5c | masuk 08 Oct 10:42 WIB | kini 13.5c | P/L -$1.29
-- [fade-favorit] Israel x Iran ceasefire continues through October 31? | beli No @ 18.5c | masuk 08 Oct 10:42 WIB | kini 14.5c | P/L -$2.16
-- [fade-favorit] Will the Milwaukee Brewers win the 2026 World Series? | beli Yes @ 21.8c | masuk 08 Oct 10:42 WIB | kini 45.6c | P/L +$10.99
-- [fade-favorit] Iran-Oman Hormuz Agreement by October 31? | beli Yes @ 20.5c | masuk 08 Oct 10:42 WIB | kini 11.5c | P/L -$4.39
-- [fade-favorit] Israel accuses Iran/proxies of plane stabbing incident by Oct 31? | beli Yes @ 11.5c | masuk 08 Oct 10:42 WIB | kini 6.0c | P/L -$4.78
-- [fade-favorit] Will Ethereum dip to $2,100 in October? | beli Yes @ 14.5c | masuk 08 Oct 10:42 WIB | kini 22.5c | P/L +$5.52
-- [fade-favorit] Will the Democrats win the South Carolina Senate race in 2026? | beli Yes @ 16.5c | masuk 08 Oct 10:42 WIB | kini 15.5c | P/L -$0.61
-- [fade-favorit] Will the Democrats win the Wisconsin governor race in 2026? | beli No @ 19.5c | masuk 08 Oct 10:42 WIB | kini 19.5c | P/L +$0.00
-- [baseline-favorit] Will the Democratic Party control the House after the 2026 Midterm elections? | beli Yes @ 91.5c | masuk 10 Oct 12:43 WIB | kini 90.5c | P/L -$0.11
-- [fade-favorit] US x Iran ceasefire continues through October 15? | beli No @ 10.5c | masuk 10 Oct 12:43 WIB | kini 2.2c | P/L -$7.90
-- [fade-favorit] Will Naftali Bennett be the next Prime Minister of Israel? | beli Yes @ 12.5c | masuk 10 Oct 12:43 WIB | kini 14.5c | P/L +$1.60
-- [fade-favorit] Will Google have the best AI model at the end of October 2026? | beli No @ 28.4c | masuk 10 Oct 12:43 WIB | kini 32.2c | P/L +$1.38
-- [fade-favorit] NATO x Russia military clash by October 31, 2026? | beli Yes @ 9.5c | masuk 10 Oct 12:43 WIB | kini 8.0c | P/L -$1.58
-- [fade-favorit] Will Bitcoin reach $92,500 in October? | beli Yes @ 21.5c | masuk 10 Oct 12:43 WIB | kini 11.5c | P/L -$4.65
-- [fade-favorit] Will the Democratic Party control the House after the 2026 Midterm elections? | beli No @ 11.5c | masuk 10 Oct 12:43 WIB | kini 9.5c | P/L -$1.74
-- [fade-favorit] 2026 Balance of Power: R Senate, R House | beli Yes @ 10.5c | masuk 10 Oct 12:43 WIB | kini 8.5c | P/L -$1.90
-- [fade-favorit] Will the Democrats win the Michigan Senate race in 2026? | beli No @ 31.5c | masuk 10 Oct 12:43 WIB | kini 29.5c | P/L -$0.63
-- [fade-favorit] Will Mary Peltola win the Alaska Senate race in 2026? | beli No @ 28.5c | masuk 10 Oct 12:43 WIB | kini 26.5c | P/L -$0.70
-- [fade-favorit] Will the Republicans win the Texas governor race in 2026? | beli No @ 26.8c | masuk 10 Oct 12:43 WIB | kini 21.9c | P/L -$1.81
-- [fade-favorit] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 31.7c | masuk 13 Oct 07:56 WIB | kini 30.8c | P/L -$0.30
-- [fade-favorit] Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8–12%? | beli Yes @ 14.0c | masuk 15 Oct 08:06 WIB | kini 12.0c | P/L -$1.42
+- [baseline-favorit/B-1] Will there be no change in Fed interest rates after the October 2026 meeting? | beli Yes @ 84.5c | masuk 02 Oct 21:29 WIB | kini 71.5c | P/L -$1.54
+- [baseline-favorit/B-1] Will the Fed increase interest rates by 25 bps after the October 2026 meeting? | beli No @ 84.5c | masuk 02 Oct 21:29 WIB | kini 71.5c | P/L -$1.54
+- [baseline-favorit/B-1] US announces end of Iranian blockade by October 31, 2026? | beli No @ 77.5c | masuk 02 Oct 21:29 WIB | kini 91.5c | P/L +$1.81
+- [baseline-favorit/B-1] Will Flávio Bolsonaro win the 2026 Brazilian presidential election? | beli Yes @ 56.0c | masuk 02 Oct 21:29 WIB | kini 79.5c | P/L +$4.19
+- [baseline-favorit/B-1] Will the Milwaukee Brewers win the 2026 World Series? | beli No @ 83.9c | masuk 02 Oct 21:29 WIB | kini 42.8c | P/L -$4.90
+- [baseline-favorit/B-1] Will Benjamin Netanyahu be the next Prime Minister of Israel? | beli No @ 67.5c | masuk 02 Oct 21:29 WIB | kini 72.5c | P/L +$0.74
+- [baseline-favorit/B-1] Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election? | beli No @ 56.5c | masuk 02 Oct 21:29 WIB | kini 79.5c | P/L +$4.07
+- [baseline-favorit/B-1] Will the Republican Party control the Senate after the 2026 Midterm elections? | beli No @ 65.5c | masuk 02 Oct 21:29 WIB | kini 63.5c | P/L -$0.31
+- [baseline-favorit/B-1] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 54.4c | masuk 02 Oct 21:29 WIB | kini 51.0c | P/L -$0.61
+- [claude-A/A-1] US announces end of Iranian blockade by October 31, 2026? | beli No @ 82.5c | masuk 04 Oct 10:55 WIB | kini 91.5c | P/L +$1.09
+- [claude-A/A-1] Will there be no change in Fed interest rates after the October 2026 meeting? | beli No @ 18.5c | masuk 04 Oct 10:55 WIB | kini 28.5c | P/L +$5.41
+- [claude-A/A-1] Billionaire one-time wealth tax passes in California election 2026? | beli Yes @ 31.5c | masuk 04 Oct 10:59 WIB | kini 25.5c | P/L -$1.90
+- [fade-favorit/F-lama] Will there be no change in Fed interest rates after the October 2026 meeting? | beli No @ 17.5c | masuk 08 Oct 10:40 WIB | kini 28.5c | P/L +$6.29
+- [fade-favorit/F-lama] Will Iliana Iotova win the next Bulgarian presidential election? | beli No @ 15.5c | masuk 08 Oct 10:42 WIB | kini 13.5c | P/L -$1.29
+- [fade-favorit/F-lama] Israel x Iran ceasefire continues through October 31? | beli No @ 18.5c | masuk 08 Oct 10:42 WIB | kini 14.5c | P/L -$2.16
+- [fade-favorit/F-lama] Will the Milwaukee Brewers win the 2026 World Series? | beli Yes @ 21.8c | masuk 08 Oct 10:42 WIB | kini 57.2c | P/L +$16.32
+- [fade-favorit/F-lama] Iran-Oman Hormuz Agreement by October 31? | beli Yes @ 20.5c | masuk 08 Oct 10:42 WIB | kini 10.5c | P/L -$4.88
+- [fade-favorit/F-lama] Israel accuses Iran/proxies of plane stabbing incident by Oct 31? | beli Yes @ 11.5c | masuk 08 Oct 10:42 WIB | kini 6.0c | P/L -$4.78
+- [fade-favorit/F-lama] Will Ethereum dip to $2,100 in October? | beli Yes @ 14.5c | masuk 08 Oct 10:42 WIB | kini 32.5c | P/L +$12.41
+- [fade-favorit/F-lama] Will the Democrats win the South Carolina Senate race in 2026? | beli Yes @ 16.5c | masuk 08 Oct 10:42 WIB | kini 15.5c | P/L -$0.61
+- [fade-favorit/F-lama] Will the Democrats win the Wisconsin governor race in 2026? | beli No @ 19.5c | masuk 08 Oct 10:42 WIB | kini 19.0c | P/L -$0.26
+- [baseline-favorit/B-1] Will the Democratic Party control the House after the 2026 Midterm elections? | beli Yes @ 91.5c | masuk 10 Oct 12:43 WIB | kini 90.5c | P/L -$0.11
+- [fade-favorit/F-329e93] US x Iran ceasefire continues through October 15? | beli No @ 10.5c | masuk 10 Oct 12:43 WIB | kini 1.4c | P/L -$8.71
+- [fade-favorit/F-329e93] Will Naftali Bennett be the next Prime Minister of Israel? | beli Yes @ 12.5c | masuk 10 Oct 12:43 WIB | kini 15.5c | P/L +$2.40
+- [fade-favorit/F-329e93] Will Google have the best AI model at the end of October 2026? | beli No @ 28.4c | masuk 10 Oct 12:43 WIB | kini 27.8c | P/L -$0.19
+- [fade-favorit/F-329e93] NATO x Russia military clash by October 31, 2026? | beli Yes @ 9.5c | masuk 10 Oct 12:43 WIB | kini 6.0c | P/L -$3.68
+- [fade-favorit/F-329e93] Will Bitcoin reach $92,500 in October? | beli Yes @ 21.5c | masuk 10 Oct 12:43 WIB | kini 8.5c | P/L -$6.05
+- [fade-favorit/F-329e93] Will the Democratic Party control the House after the 2026 Midterm elections? | beli No @ 11.5c | masuk 10 Oct 12:43 WIB | kini 9.5c | P/L -$1.74
+- [fade-favorit/F-329e93] 2026 Balance of Power: R Senate, R House | beli Yes @ 10.5c | masuk 10 Oct 12:43 WIB | kini 8.5c | P/L -$1.90
+- [fade-favorit/F-329e93] Will the Democrats win the Michigan Senate race in 2026? | beli No @ 31.5c | masuk 10 Oct 12:43 WIB | kini 29.5c | P/L -$0.63
+- [fade-favorit/F-329e93] Will Mary Peltola win the Alaska Senate race in 2026? | beli No @ 28.5c | masuk 10 Oct 12:43 WIB | kini 26.5c | P/L -$0.70
+- [fade-favorit/F-329e93] Will the Republicans win the Texas governor race in 2026? | beli No @ 26.8c | masuk 10 Oct 12:43 WIB | kini 21.9c | P/L -$1.81
+- [fade-favorit/F-329e93] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 31.7c | masuk 13 Oct 07:56 WIB | kini 30.9c | P/L -$0.27
+- [fade-favorit/F-329e93] Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8–12%? | beli Yes @ 14.0c | masuk 15 Oct 08:06 WIB | kini 8.6c | P/L -$3.84
+- [yes-premium/Y-528f27] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 32.9c | masuk 15 Oct 20:00 WIB | kini 30.9c | P/L -$0.61
+- [yes-premium/Y-528f27] Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election? | beli No @ 40.5c | masuk 15 Oct 20:00 WIB | kini 38.5c | P/L -$0.49
+- [yes-premium/Y-528f27] Will Likud win the most seats in the 2026 Israeli legislative election? | beli No @ 61.5c | masuk 15 Oct 20:00 WIB | kini 59.5c | P/L -$0.33
+- [yes-premium/Y-528f27] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 53.5c | masuk 15 Oct 20:00 WIB | kini 51.5c | P/L -$0.37
+- [yes-premium/Y-528f27] Will the Milwaukee Brewers win the 2026 World Series? | beli No @ 44.8c | masuk 15 Oct 20:00 WIB | kini 42.8c | P/L -$0.45
+- [yes-premium/Y-528f27] Will WTI Crude Oil (WTI) hit (HIGH) $100 in October? | beli No @ 58.0c | masuk 15 Oct 20:00 WIB | kini 56.0c | P/L -$0.34
+- [yes-premium/Y-528f27] Will Ethereum dip to $2,100 in October? | beli No @ 70.5c | masuk 15 Oct 20:00 WIB | kini 68.5c | P/L -$0.28
+- [yes-premium/Y-528f27] 2026 Balance of Power: D Senate, D House | beli No @ 39.5c | masuk 15 Oct 20:00 WIB | kini 37.5c | P/L -$0.51
+- [yes-premium/Y-528f27] Will the Republican Party control the Senate after the 2026 Midterm elections? | beli No @ 65.5c | masuk 15 Oct 20:00 WIB | kini 63.5c | P/L -$0.31
+- [yes-premium/Y-528f27] Will the Republicans win the Texas Senate race in 2026? | beli No @ 64.5c | masuk 15 Oct 20:00 WIB | kini 62.5c | P/L -$0.31
 Selesai: 1 posisi, menang 1.

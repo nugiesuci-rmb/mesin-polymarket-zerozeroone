@@ -5,13 +5,14 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.845,
-  "cur": 0.765,
+  "cur": 0.715,
   "stake": 10,
   "shares": 11.834319526627219,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "2589813",
@@ -19,13 +20,14 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.845,
-  "cur": 0.755,
+  "cur": 0.715,
   "stake": 10,
   "shares": 11.834319526627219,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "3128888",
@@ -33,13 +35,14 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.775,
-  "cur": 0.885,
+  "cur": 0.915,
   "stake": 10,
   "shares": 12.903225806451612,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "601826",
@@ -47,13 +50,14 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.5605,
-  "cur": 0.8365,
+  "cur": 0.7955,
   "stake": 10,
   "shares": 17.84121320249777,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/brazil-presidential-election",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "1235568",
@@ -61,13 +65,14 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.8385,
-  "cur": 0.5435,
+  "cur": 0.4275,
   "stake": 10,
   "shares": 11.926058437686345,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/mlb-world-series-champion-2026",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "682705",
@@ -75,13 +80,14 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.675,
-  "cur": 0.735,
+  "cur": 0.725,
   "stake": 10,
   "shares": 14.814814814814813,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "1235573",
@@ -96,7 +102,8 @@
   "status": "won",
   "url": "https://polymarket.com/event/mlb-world-series-champion-2026",
   "strategy": "baseline-favorit",
-  "closed_at": "2026-10-10T05:43:38.253272+00:00"
+  "closed_at": "2026-10-10T05:43:38.253272+00:00",
+  "ver": "B-1"
  },
  {
   "id": "601819",
@@ -104,13 +111,14 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.5650000000000001,
-  "cur": 0.845,
+  "cur": 0.795,
   "stake": 10,
   "shares": 17.699115044247787,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/brazil-presidential-election",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "562794",
@@ -118,13 +126,14 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.655,
-  "cur": 0.63,
+  "cur": 0.635,
   "stake": 10,
   "shares": 15.267175572519083,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "682708",
@@ -132,13 +141,14 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.5435,
-  "cur": 0.5195,
+  "cur": 0.5105,
   "stake": 10,
   "shares": 18.39926402943882,
   "opened": "2026-10-02T14:29:53.935393+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "3128888",
@@ -147,7 +157,7 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.825,
-  "cur": 0.885,
+  "cur": 0.915,
   "stake": 10,
   "shares": 12.121212121212121,
   "opened": "2026-10-04T03:55:39.850852+00:00",
@@ -156,7 +166,8 @@
   "strategy": "claude-A",
   "p_yes": 0.14,
   "conf": "sedang",
-  "why": "Perundingan macet; Trump tolak proposal; delegasi Iran diusir; tempo 'setelah midterm'."
+  "why": "Perundingan macet; Trump tolak proposal; delegasi Iran diusir; tempo 'setelah midterm'.",
+  "ver": "A-1"
  },
  {
   "id": "2589812",
@@ -165,7 +176,7 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.185,
-  "cur": 0.235,
+  "cur": 0.285,
   "stake": 10,
   "shares": 54.054054054054056,
   "opened": "2026-10-04T03:55:39.850852+00:00",
@@ -174,7 +185,8 @@
   "strategy": "claude-A",
   "p_yes": 0.76,
   "conf": "rendah",
-  "why": "Futures CME menyiratkan hold 62-75% vs pasar 84%; tipis, hanya untuk dicatat."
+  "why": "Futures CME menyiratkan hold 62-75% vs pasar 84%; tipis, hanya untuk dicatat.",
+  "ver": "A-1"
  },
  {
   "id": "648383",
@@ -192,7 +204,8 @@
   "strategy": "claude-A",
   "p_yes": 0.37,
   "conf": "rendah",
-  "why": "Polling Yes unggul (48-38 NBC, 52-46 PPIC) tapi di bawah/dekat 50%; dukungan inisiatif biasanya turun; lawan didanai besar. Keyakinan rendah."
+  "why": "Polling Yes unggul (48-38 NBC, 52-46 PPIC) tapi di bawah/dekat 50%; dukungan inisiatif biasanya turun; lawan didanai besar. Keyakinan rendah.",
+  "ver": "A-1"
  },
  {
   "id": "2589812",
@@ -201,14 +214,15 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.17500000000000002,
-  "cur": 0.235,
+  "cur": 0.285,
   "stake": 10,
   "shares": 57.14285714285714,
   "opened": "2026-10-08T03:40:26.440187+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 84%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 84%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "1194643",
@@ -224,7 +238,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/bulgaria-presidential-election",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 86%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 86%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "3399459",
@@ -240,7 +255,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 82%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 82%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "1235568",
@@ -249,14 +265,15 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.2175,
-  "cur": 0.4565,
+  "cur": 0.5725,
   "stake": 10,
   "shares": 45.97701149425287,
   "opened": "2026-10-08T03:42:43.275484+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/mlb-world-series-champion-2026",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 79%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 79%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "3954617",
@@ -265,14 +282,15 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.20500000000000002,
-  "cur": 0.115,
+  "cur": 0.105,
   "stake": 10,
   "shares": 48.78048780487804,
   "opened": "2026-10-08T03:42:43.275484+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/iran-oman-hormuz-management-agreement-byptptpt-20260804222725871",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 80%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 80%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "5164765",
@@ -288,7 +306,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/israel-accuses-iranproxies-of-plane-stabbing-incident-by-oct-31",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 90%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 90%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "5170791",
@@ -297,14 +316,15 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.14500000000000002,
-  "cur": 0.225,
+  "cur": 0.325,
   "stake": 10,
   "shares": 68.9655172413793,
   "opened": "2026-10-08T03:42:43.275484+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-october-2026",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 86%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 86%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "630924",
@@ -320,7 +340,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/south-carolina-senate-election-winner",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 84%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 84%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "629720",
@@ -329,14 +350,15 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.195,
-  "cur": 0.195,
+  "cur": 0.19,
   "stake": 10,
   "shares": 51.28205128205128,
   "opened": "2026-10-08T03:42:43.275484+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/wisconsin-governor-winner-2026",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 82%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya."
+  "why": "Lawan favorit 82%: backtest menunjukkan favorit 80-90% menang lebih jarang dari harganya.",
+  "ver": "F-lama"
  },
  {
   "id": "562802",
@@ -351,7 +373,8 @@
   "opened": "2026-10-10T05:43:38.253272+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
-  "strategy": "baseline-favorit"
+  "strategy": "baseline-favorit",
+  "ver": "B-1"
  },
  {
   "id": "5130978",
@@ -360,14 +383,15 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.10500000000000001,
-  "cur": 0.022,
+  "cur": 0.0135,
   "stake": 10,
   "shares": 95.23809523809523,
   "opened": "2026-10-10T05:43:38.253272+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 92%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 92%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "682706",
@@ -376,14 +400,15 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.125,
-  "cur": 0.145,
+  "cur": 0.155,
   "stake": 10,
   "shares": 80.0,
   "opened": "2026-10-10T05:43:38.253272+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 90%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 90%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "3554659",
@@ -392,14 +417,15 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.28350000000000003,
-  "cur": 0.3225,
+  "cur": 0.278,
   "stake": 10,
   "shares": 35.273368606701936,
   "opened": "2026-10-10T05:43:38.253272+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/which-company-has-the-best-ai-model-end-of-october",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 74%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 74%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "3120760",
@@ -408,14 +434,15 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.095,
-  "cur": 0.08,
+  "cur": 0.06,
   "stake": 10,
   "shares": 105.26315789473684,
   "opened": "2026-10-10T05:43:38.253272+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/nato-x-russia-military-clash-in-2025",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 92%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 92%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "5170733",
@@ -424,14 +451,15 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.215,
-  "cur": 0.115,
+  "cur": 0.085,
   "stake": 10,
   "shares": 46.51162790697674,
   "opened": "2026-10-10T05:43:38.253272+00:00",
   "status": "open",
   "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-october-2026",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 80%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 80%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "562802",
@@ -447,7 +475,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 90%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 90%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "562831",
@@ -463,7 +492,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 92%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 92%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "630805",
@@ -479,7 +509,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/michigan-senate-election-winner",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 70%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 70%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "634976",
@@ -495,7 +526,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/alaska-senate-election-winner",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 74%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 74%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "629691",
@@ -511,7 +543,8 @@
   "status": "open",
   "url": "https://polymarket.com/event/texas-governor-winner-2026",
   "strategy": "fade-favorit",
-  "why": "Lawan favorit 75%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 75%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "2757891",
@@ -520,7 +553,7 @@
   "side": "No",
   "side_idx": 1,
   "entry": 0.317,
-  "cur": 0.3075,
+  "cur": 0.3085,
   "stake": 10,
   "shares": 31.545741324921135,
   "opened": "2026-10-13T00:56:05.286709+00:00",
@@ -531,7 +564,8 @@
   "real_entry": 0.29836120865227544,
   "best_ask": 0.298,
   "best_bid": 0.296,
-  "why": "Lawan favorit 70%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 70%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
  },
  {
   "id": "5340069",
@@ -540,7 +574,7 @@
   "side": "Yes",
   "side_idx": 0,
   "entry": 0.14049999999999999,
-  "cur": 0.1205,
+  "cur": 0.0865,
   "stake": 10,
   "shares": 71.17437722419929,
   "opened": "2026-10-15T01:06:38.342268+00:00",
@@ -551,6 +585,227 @@
   "real_entry": 0.121,
   "best_ask": 0.121,
   "best_bid": 0.12,
-  "why": "Lawan favorit 88%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan)."
+  "why": "Lawan favorit 88%: backtest menunjukkan favorit 70-95% menang lebih jarang dari harganya (belum terbukti ke depan).",
+  "ver": "F-329e93"
+ },
+ {
+  "id": "2757891",
+  "ev": "next-prime-minister-of-serbia-20260629223938642",
+  "q": "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.3285,
+  "cur": 0.3085,
+  "stake": 10,
+  "shares": 30.441400304414003,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "lain:next-prime-minister-of-serbia-20260629223938642",
+  "real_entry": 0.309,
+  "best_ask": 0.309,
+  "best_bid": 0.308,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 69%."
+ },
+ {
+  "id": "4824600",
+  "ev": "serbia-parliamentary-election-winner-2026",
+  "q": "Will Aleksandar Vu\u010di\u0107 \u2013 United Serbia win the most seats in the 2026 Serbian parliamentary election?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.405,
+  "cur": 0.385,
+  "stake": 10,
+  "shares": 24.691358024691358,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/serbia-parliamentary-election-winner-2026",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "lain:serbia-parliamentary-election-winner-2026",
+  "real_entry": 0.39,
+  "best_ask": 0.39,
+  "best_bid": 0.38,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 62%."
+ },
+ {
+  "id": "2100981",
+  "ev": "israeli-legislative-election-winner",
+  "q": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.615,
+  "cur": 0.595,
+  "stake": 10,
+  "shares": 16.260162601626018,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/israeli-legislative-election-winner",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "timteng",
+  "real_entry": 0.6,
+  "best_ask": 0.6,
+  "best_bid": 0.59,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 40%."
+ },
+ {
+  "id": "682708",
+  "ev": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+  "q": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.535,
+  "cur": 0.515,
+  "stake": 10,
+  "shares": 18.69158878504673,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "timteng",
+  "real_entry": 0.5233745673919665,
+  "best_ask": 0.523,
+  "best_bid": 0.513,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 48%."
+ },
+ {
+  "id": "1235568",
+  "ev": "mlb-world-series-champion-2026",
+  "q": "Will the Milwaukee Brewers win the 2026 World Series?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.4475,
+  "cur": 0.4275,
+  "stake": 10,
+  "shares": 22.3463687150838,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/mlb-world-series-champion-2026",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "lain:mlb-world-series-champion-2026",
+  "real_entry": 0.43000000000000005,
+  "best_ask": 0.43,
+  "best_bid": 0.425,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 57%."
+ },
+ {
+  "id": "4936103",
+  "ev": "what-price-will-wti-hit-in-october-2026",
+  "q": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in October?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.5800000000000001,
+  "cur": 0.56,
+  "stake": 10,
+  "shares": 17.241379310344826,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/what-price-will-wti-hit-in-october-2026",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "lain:what-price-will-wti-hit-in-october-2026",
+  "real_entry": 0.56,
+  "best_ask": 0.56,
+  "best_bid": 0.55,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 44%."
+ },
+ {
+  "id": "5170791",
+  "ev": "what-price-will-ethereum-hit-in-october-2026",
+  "q": "Will Ethereum dip to $2,100 in October?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.7050000000000001,
+  "cur": 0.685,
+  "stake": 10,
+  "shares": 14.184397163120567,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-october-2026",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "kripto",
+  "real_entry": 0.69,
+  "best_ask": 0.69,
+  "best_bid": 0.67,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 32%."
+ },
+ {
+  "id": "562828",
+  "ev": "balance-of-power-2026-midterms",
+  "q": "2026 Balance of Power: D Senate, D House",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.395,
+  "cur": 0.375,
+  "stake": 10,
+  "shares": 25.31645569620253,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "pemilu-as",
+  "real_entry": 0.38,
+  "best_ask": 0.38,
+  "best_bid": 0.37,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 62%."
+ },
+ {
+  "id": "562794",
+  "ev": "which-party-will-win-the-senate-in-2026",
+  "q": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.655,
+  "cur": 0.635,
+  "stake": 10,
+  "shares": 15.267175572519083,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "pemilu-as",
+  "real_entry": 0.64,
+  "best_ask": 0.64,
+  "best_bid": 0.63,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 36%."
+ },
+ {
+  "id": "630964",
+  "ev": "texas-senate-election-winner",
+  "q": "Will the Republicans win the Texas Senate race in 2026?",
+  "side": "No",
+  "side_idx": 1,
+  "entry": 0.645,
+  "cur": 0.625,
+  "stake": 10,
+  "shares": 15.503875968992247,
+  "opened": "2026-10-15T13:00:40.080073+00:00",
+  "status": "open",
+  "url": "https://polymarket.com/event/texas-senate-election-winner",
+  "strategy": "yes-premium",
+  "ver": "Y-528f27",
+  "shadow": true,
+  "cluster": "pemilu-as",
+  "real_entry": 0.63,
+  "best_ask": 0.63,
+  "best_bid": 0.62,
+  "why": "BAYANGAN: hipotesis \"Yes terlalu mahal\" (klaim oracle3, belum terbukti). Beli No saat Yes 38%."
  }
 ]
