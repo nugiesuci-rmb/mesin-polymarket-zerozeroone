@@ -31,8 +31,8 @@ CFG = dict(
     MAX_OPEN = 10,          # maksimal posisi simulasi terbuka
     SLIPPAGE = 0.01,        # biaya beli simulasi (1 sen) biar realistis
     FADE_MIN = 0.70, FADE_MAX = 0.93,   # strategi 'fade-favorit': lawan favorit di rentang harga ini
-    FADE_MIN_DAYS = 3, FADE_MAX_DAYS = 30, FADE_MAX_OPEN = 40, FADE_MAX_PER_CLUSTER = 3, FADE_MIN_LIQ = 5000, FADE_SLIPPAGE = 0.02,
-    YP_MIN = 0.30, YP_MAX = 0.70, YP_MIN_DAYS = 3, YP_MAX_DAYS = 30, YP_MIN_LIQ = 5000, YP_MAX_OPEN = 15, YP_SLIPPAGE = 0.02,
+    FADE_MIN_DAYS = 3, FADE_MAX_DAYS = 14, FADE_MAX_OPEN = 40, FADE_MAX_PER_CLUSTER = 3, FADE_MIN_LIQ = 5000, FADE_SLIPPAGE = 0.02,
+    YP_MIN = 0.30, YP_MAX = 0.70, YP_MIN_DAYS = 3, YP_MAX_DAYS = 30, YP_MIN_LIQ = 5000, YP_MAX_OPEN = 0, YP_SLIPPAGE = 0.02,
     PAGES = 10,             # 10 halaman x 100 = 1000 market (lebih banyak bahan uji)              # 4 halaman x 100 market
 )
 API = 'https://gamma-api.polymarket.com'
@@ -135,9 +135,12 @@ def score(m):
     s_time = 1 if 3 <= m['days'] <= 30 else 0.5
     return round(100 * (0.35*s_liq + 0.30*s_vol + 0.25*s_spr + 0.10*s_time))
 
+PARSED_ALL = []
 def scan():
+    global PARSED_ALL
     raw = fetch_markets()
     parsed = [x for x in (parse(m) for m in raw) if x]
+    PARSED_ALL = parsed
     keep = []
     for m in parsed:
         fav = max(m['p'])
@@ -290,7 +293,7 @@ def open_fade(pos, cands):
     for t in mine:
         if t['status'] == 'open':
             c0 = cluster_of(t['q'], t.get('ev')); cnt[c0] = cnt.get(c0, 0) + 1
-    for m in sorted(cands, key=lambda c: c['days']):
+    for m in sorted(PARSED_ALL or cands, key=lambda c: c['days']):
         if n_open >= CFG['FADE_MAX_OPEN']: break
         if m.get('extra') or m['id'] in known or m['ev'] in used_ev: continue
         if any(w in m['q'].lower() for w in EXCLUDE_WORDS): continue
@@ -383,25 +386,36 @@ def stat_pack(done, slip):
 
 def gate_status(pos):
     done = [t for t in pos if t.get('strategy') == 'fade-favorit' and t.get('ver') == FADE_ID and t['status'] in ('won', 'lost')]
-    if not done: return dict(n=0, ok=False, roi=0.0, gap=0.0, roi_ex=0.0, n_cl=0)
+    if not done: return dict(n=0, ok=False, light='merah', roi=0.0, gap=0.0, roi_ex=0.0, n_cl=0, ci5=None)
     g = stat_pack(done, CFG['FADE_SLIPPAGE'])
-    g['ok'] = bool(g['n'] >= 40 and g['roi'] >= 0.10 and g['gap'] >= 0.05 and g['roi_ex'] > 0)
+    g['ci5'] = g['ci'][0] if g['ci'] else None
+    g['yellow'] = bool(g['n'] >= 40 and g['roi'] >= 0 and g['gap'] >= 0.03 and g['roi_ex'] > 0)
+    g['green'] = bool(g['n'] >= 120 and g['ci5'] is not None and g['ci5'] > 0 and g['gap'] >= 0.03 and g['roi_ex'] > 0)
+    g['light'] = 'hijau' if g['green'] else ('kuning' if g['yellow'] else 'merah')
+    g['ok'] = g['yellow']
     return g
 
 def scorecard_html(pos):
     def ck(ok): return '<span class="up">&#10003;</span>' if ok else '<span class="dn">&#10007;</span>'
     g = gate_status(pos)
+    ci5 = g.get('ci5')
     if g['n'] == 0:
-        gate = (f"<div class='card' style='margin-bottom:16px;font-size:13px'><strong>Gerbang 1 &mdash; fade-favorit (aturan {FADE_ID}):</strong> belum ada posisi versi ini yang selesai. "
-                "Target: 40 posisi selesai, ROI &ge; +10%, selisih &ge; +5 poin, tetap positif tanpa kemenangan terbesar.<br><small style='color:#8fa0bd'>Aturan: "
-                f"{RULE_TEXT[FADE_ID]}</small></div>")
+        gate = (f"<div class='card' style='margin-bottom:16px;font-size:13px;line-height:1.7'><strong>Gerbang bertahap &mdash; fade-favorit, aturan {FADE_ID}:</strong> lampu MERAH (belum ada posisi versi ini yang selesai).<br>"
+                "KUNING = izin uji eksekusi uang asli SANGAT kecil (maks $100 total): 40 posisi selesai, ROI &ge; 0%, selisih &ge; +3 poin, positif tanpa kemenangan terbesar.<br>"
+                "HIJAU = baru boleh mempertimbangkan menaikkan modal bertahap: 120 posisi selesai dan batas bawah ROI (90%, per tema) &gt; 0.<br>"
+                f"<small style='color:#8fa0bd'>Aturan: {RULE_TEXT[FADE_ID]}</small></div>")
     else:
-        gate = (f"<div class='card' style='margin-bottom:16px;font-size:13px;line-height:1.7'><strong>Gerbang 1 &mdash; fade-favorit, aturan {FADE_ID} (syarat sebelum uang asli kecil)</strong><br>"
+        ci_txt = '-' if ci5 is None else f"{ci5*100:+.0f}%"
+        gate = (f"<div class='card' style='margin-bottom:16px;font-size:13px;line-height:1.7'><strong>Gerbang bertahap &mdash; fade-favorit, aturan {FADE_ID}</strong> &nbsp; lampu: <strong>{g['light'].upper()}</strong><br>"
+                "<u>KUNING &mdash; izin uji eksekusi uang asli SANGAT kecil (maks $100 total), bukan bukti untung</u><br>"
                 f"{ck(g['n']>=40)} Posisi selesai: {g['n']} / 40 &nbsp; (tema independen: {g['n_cl']})<br>"
-                f"{ck(g['roi']>=0.10)} ROI setelah biaya: {g['roi']*100:+.0f}% (target &ge; +10%)<br>"
-                f"{ck(g['gap']>=0.05)} Underdog menang lebih sering dari harga: {g['gap']*100:+.0f} poin (target &ge; +5)<br>"
+                f"{ck(g['roi']>=0)} ROI setelah biaya: {g['roi']*100:+.0f}% (target &ge; 0%)<br>"
+                f"{ck(g['gap']>=0.03)} Underdog menang lebih sering dari harga: {g['gap']*100:+.0f} poin (target &ge; +3)<br>"
                 f"{ck(g['roi_ex']>0)} ROI tanpa kemenangan terbesar: {g['roi_ex']*100:+.0f}% (target &gt; 0)<br>"
-                f"<small style='color:#8fa0bd'>Aturan: {RULE_TEXT[FADE_ID]}. Versi aturan lain dihitung terpisah (arsip).</small></div>")
+                "<u>HIJAU &mdash; baru boleh mempertimbangkan menaikkan modal bertahap</u><br>"
+                f"{ck(g['n']>=120)} Posisi selesai: {g['n']} / 120<br>"
+                f"{ck(ci5 is not None and ci5>0)} Batas bawah ROI (90%, per tema): {ci_txt} (target &gt; 0)<br>"
+                f"<small style='color:#8fa0bd'>Aturan: {RULE_TEXT[FADE_ID]}. Versi aturan lain dihitung terpisah (arsip). Dengan edge setengah dari backtest pun, 40 posisi sering belum cukup untuk membedakan dari keberuntungan.</small></div>")
     order = {'fade-favorit': 0, 'yes-premium': 1, 'claude-A': 2, 'baseline-favorit': 3}
     keys = sorted({(t.get('strategy', 'baseline-favorit'), t.get('ver', '?')) for t in pos},
                   key=lambda k: (order.get(k[0], 9), k[1] != FADE_ID, k[1]))
@@ -410,7 +424,7 @@ def scorecard_html(pos):
         grp = [t for t in pos if t.get('strategy', 'baseline-favorit') == strat and t.get('ver', '?') == ver]
         done = [t for t in grp if t['status'] in ('won', 'lost')]
         if strat == 'fade-favorit': role = 'UJI UTAMA' if ver == FADE_ID else 'arsip'
-        elif strat == 'yes-premium': role = 'bayangan'
+        elif strat == 'yes-premium': role = 'bayangan (dihentikan)'
         elif strat == 'claude-A': role = 'analisis Claude'
         else: role = 'patokan'
         head = f"<td>{strat}</td><td>{ver}</td><td>{role}</td><td>{len(grp)}</td>"
@@ -424,6 +438,18 @@ def scorecard_html(pos):
                  f"<td class='{'up' if p['gap']>=0 else 'dn'}'>{p['gap']*100:+.0f} poin</td>"
                  f"<td class='{'up' if p['roi']>=0 else 'dn'}'>{p['roi']*100:+.0f}%</td>"
                  f"<td>{rr_txt}</td><td>{p['roi_ex']*100:+.0f}%</td><td>{ci_txt}</td></tr>")
+        if strat == 'fade-favorit' and ver == FADE_ID:
+            for lab_side, sd in (('&nbsp;&nbsp;&#8627; underdog Yes (favorit No)', 'Yes'), ('&nbsp;&nbsp;&#8627; underdog No (favorit Yes)', 'No')):
+                allp = [t for t in grp if t['side'] == sd]
+                sub_ = [t for t in done if t['side'] == sd]
+                if not sub_:
+                    rows += f"<tr><td colspan=3>{lab_side}</td><td>{len(allp)}</td><td colspan=8>belum ada yang selesai</td></tr>"; continue
+                ps = stat_pack(sub_, slip)
+                ci2 = f"{ps['ci'][0]*100:+.0f}% s/d {ps['ci'][1]*100:+.0f}%" if ps['ci'] else '-'
+                rr2 = '-' if ps['roi_real'] is None else f"{ps['roi_real']*100:+.0f}% (n={ps['n_rr']})"
+                rows += (f"<tr><td colspan=3>{lab_side}</td><td>{len(allp)}</td><td>{ps['n']}</td><td>{ps['wins']}</td>"
+                         f"<td class='{'up' if ps['gap']>=0 else 'dn'}'>{ps['gap']*100:+.0f} poin</td>"
+                         f"<td class='{'up' if ps['roi']>=0 else 'dn'}'>{ps['roi']*100:+.0f}%</td><td>{rr2}</td><td>{ps['roi_ex']*100:+.0f}%</td><td>{ci2}</td></tr>")
     notes = ''.join(f"<div><b>{k}</b>: {html.escape(v)}</div>" for k, v in RULE_TEXT.items() if any(t.get('ver') == k for t in pos))
     return (f"<h2>Papan keputusan</h2>{gate}<div class='wrap'><table style='min-width:1000px'><tr><th>Strategi</th><th>Versi</th><th>Peran</th><th>Posisi</th>"
             f"<th>Selesai</th><th>Menang</th><th>Selisih vs harga</th><th>ROI (sim)</th><th>ROI (order book nyata)</th><th>ROI tanpa menang terbesar</th><th>Rentang 90% (per tema)</th></tr>{rows}</table></div>"
@@ -542,18 +568,22 @@ def send_notifications(pos):
                       f"{'MENANG' if t['status'] == 'won' else 'KALAH'} ({money(pnl(t))})")
         msgs.append('\n'.join(ln))
     g = gate_status(pos)
-    if g['ok'] and not st.get('gate_ok'):
-        msgs.append(f"🚦 Gerbang 1 (aturan {FADE_ID}) memenuhi semua syarat: {g['n']} posisi selesai, ROI {g['roi']*100:+.0f}%, selisih {g['gap']*100:+.0f} poin. "
-                    "JANGAN langsung pakai uang asli. Buka chat dengan Claude dan minta 'cek' untuk ditinjau bersama.")
-        st['gate_ok'] = True
-    elif (not g['ok']) and st.get('gate_ok'):
-        msgs.append('ℹ️ Gerbang 1 tidak lagi memenuhi syarat (hasil terbaru menurunkan angkanya).')
-        st['gate_ok'] = False
+    prev = st.get('light', 'merah')
+    if g['light'] != prev:
+        if g['light'] == 'kuning':
+            msgs.append(f"🟡 Lampu KUNING (aturan {FADE_ID}): {g['n']} posisi selesai, ROI {g['roi']*100:+.0f}%, selisih {g['gap']*100:+.0f} poin. "
+                        "Ini hanya izin untuk uji eksekusi uang asli SANGAT kecil (maks $100 total, taruhan $2-5), BUKAN bukti untung. Buka chat dengan Claude dan minta 'cek' dulu.")
+        elif g['light'] == 'hijau':
+            msgs.append(f"🟢 Lampu HIJAU (aturan {FADE_ID}): {g['n']} posisi selesai, batas bawah ROI {g['ci5']*100:+.0f}%. "
+                        "Minta 'cek' ke Claude untuk meninjau bersama sebelum menaikkan modal apa pun.")
+        else:
+            msgs.append(f"🔴 Lampu kembali MERAH (aturan {FADE_ID}): hasil terbaru menurunkan angkanya.")
+        st['light'] = g['light']
     today = NOW.strftime('%Y-%m-%d')
     if NOW.weekday() == 0 and st.get('last_weekly') != today:        # tiap Senin
         n_open = sum(1 for t in pos if t['status'] == 'open')
         n_done = sum(1 for t in pos if t['status'] in ('won', 'lost'))
-        msgs.append(f"📊 Ringkasan mingguan: {n_open} posisi terbuka, {n_done} selesai. Gerbang 1 (fade {FADE_ID}): {g['n']}/40 selesai"
+        msgs.append(f"📊 Ringkasan mingguan: {n_open} posisi terbuka, {n_done} selesai. lampu {g['light']} (fade {FADE_ID}): {g['n']} selesai"
                     + (f", ROI {g['roi']*100:+.0f}%." if g['n'] else '.'))
         st['last_weekly'] = today
     if os.environ.get('TG_PING') == 'true':
