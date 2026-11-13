@@ -1,35 +1,35 @@
 Analisis kandidat Polymarket berikut. Untuk tiap market beri estimasi probabilitas
 kamu, selisih dengan harga pasar, keyakinan (rendah/sedang/tinggi), dan alasan singkat.
 
-- Another Fed rate hike in 2026? | harga: Yes 96% / No 4% | tutup 28 hari | likuiditas $221,762 | https://polymarket.com/event/another-fed-rate-hike-in-2026
-- Will the Fed increase interest rates by 50+ bps after the December 2026 meeting? | harga: Yes 10% / No 90% | tutup 28 hari | likuiditas $433,650 | https://polymarket.com/event/fed-decision-in-december-20260729232808632
-- Will Puma Shen win the next Taipei Mayor election? | harga: Yes 35% / No 65% | tutup 17 hari | likuiditas $464,989 | https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100
-- Will Pedro Sánchez be the next Prime Minister of Spain? | harga: Yes 12% / No 88% | tutup 18 hari | likuiditas $277,036 | https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443
-- US announces end of Iranian blockade by November 30, 2026? | harga: Yes 10% / No 90% | tutup 19 hari | likuiditas $263,437 | https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080
-- Pete Hegseth out as Secretary of Defense by November 30? | harga: Yes 5% / No 95% | tutup 19 hari | likuiditas $108,234 | https://polymarket.com/event/pete-hegseth-out-as-secretary-of-defense-by-november-30-20261001003401433
-- UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card) | harga: Josh Hokit 36% / Ciryl Gane 64% | tutup 3 hari | likuiditas $2,356,784 | https://polymarket.com/event/ufc-jos52-cir-2026-11-14
-- Will Bilibili Gaming win Worlds 2026? | harga: Yes 38% / No 62% | tutup 17 hari | likuiditas $2,472,214 | https://polymarket.com/event/worlds-2026-winner
-- AI bubble burst in 2026? | harga: Yes 11% / No 89% | tutup 50 hari | likuiditas $68,852 | https://polymarket.com/event/ai-bubble-burst-by
-- US-Iran Hormuz Agreement by November 30? | harga: Yes 10% / No 90% | tutup 19 hari | likuiditas $181,768 | https://polymarket.com/event/us-iran-hormuz-agreement-byptptpt-20260803235957575
+- Another Fed rate hike in 2026? | harga: Yes 97% / No 3% | tutup 27 hari | likuiditas $261,197 | https://polymarket.com/event/another-fed-rate-hike-in-2026
+- Will the Fed increase interest rates by 50+ bps after the December 2026 meeting? | harga: Yes 9% / No 91% | tutup 27 hari | likuiditas $357,984 | https://polymarket.com/event/fed-decision-in-december-20260729232808632
+- Will Puma Shen win the next Taipei Mayor election? | harga: Yes 35% / No 65% | tutup 16 hari | likuiditas $296,761 | https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100
+- Will Pedro Sánchez be the next Prime Minister of Spain? | harga: Yes 16% / No 84% | tutup 17 hari | likuiditas $208,389 | https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443
+- Will Bitcoin dip to $57,500 in November? | harga: Yes 9% / No 91% | tutup 18 hari | likuiditas $88,318 | https://polymarket.com/event/what-price-will-bitcoin-hit-in-november-2026
+- Will Bilibili Gaming win Worlds 2026? | harga: Yes 38% / No 62% | tutup 16 hari | likuiditas $2,682,762 | https://polymarket.com/event/worlds-2026-winner
+- US announces end of Iranian blockade by November 30, 2026? | harga: Yes 8% / No 92% | tutup 18 hari | likuiditas $217,950 | https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080
+- Brisbane 3: Bernard Tomic vs August Holmgren | harga: Bernard Tomic 6% / August Holmgren 94% | tutup 7 hari | likuiditas $106,387 | https://polymarket.com/event/atp-tomic-holmgre-2026-11-12
+- Will Bitcoin dip to $50,000 by December 31, 2026? | harga: Yes 9% / No 91% | tutup 49 hari | likuiditas $179,428 | https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027
+- AI bubble burst in 2026? | harga: Yes 7% / No 93% | tutup 49 hari | likuiditas $127,557 | https://polymarket.com/event/ai-bubble-burst-by
 
 ===== POSISI SIMULASI SAAT INI (kirim juga ini ke Claude) =====
-- [baseline-favorit/B-1] Will Benjamin Netanyahu be the next Prime Minister of Israel? | beli No @ 67.5c | masuk 02 Oct 21:29 WIB | kini 77.1c | P/L +$1.43
-- [baseline-favorit/B-1] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 54.4c | masuk 02 Oct 21:29 WIB | kini 39.0c | P/L -$2.83
-- [fade-favorit/F-329e93] Will Naftali Bennett be the next Prime Minister of Israel? | beli Yes @ 12.5c | masuk 10 Oct 12:43 WIB | kini 3.2c | P/L -$7.40
-- [fade-favorit/F-329e93] Will Mary Peltola win the Alaska Senate race in 2026? | beli No @ 28.5c | masuk 10 Oct 12:43 WIB | kini 0.9c | P/L -$9.68
-- [fade-favorit/F-329e93] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 31.7c | masuk 13 Oct 07:56 WIB | kini 98.2c | P/L +$20.96
-- [yes-premium/Y-528f27] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 32.9c | masuk 15 Oct 20:00 WIB | kini 98.2c | P/L +$19.88
-- [yes-premium/Y-528f27] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 53.5c | masuk 15 Oct 20:00 WIB | kini 39.0c | P/L -$2.72
-- [claude-A/A-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 78.0c | masuk 28 Oct 08:29 WIB | kini 89.5c | P/L +$1.47
-- [baseline-favorit/B-1] Will Bilibili Gaming win Worlds 2026? | beli No @ 85.7c | masuk 02 Nov 08:38 WIB | kini 62.2c | P/L -$2.74
-- [claude-A/A-1] US announces end of Iranian blockade by December 31, 2026? | beli No @ 61.4c | masuk 03 Nov 08:34 WIB | kini 66.5c | P/L +$0.82
-- [claude-A/A-1] US announces end of Iranian blockade by November 15, 2026? | beli No @ 92.5c | masuk 04 Nov 08:33 WIB | kini 97.2c | P/L +$0.50
-- [baseline-favorit/B-1] Will Puma Shen win the next Taipei Mayor election? | beli No @ 67.3c | masuk 05 Nov 08:40 WIB | kini 64.8c | P/L -$0.37
-- [baseline-favorit/B-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 77.5c | masuk 05 Nov 08:40 WIB | kini 89.5c | P/L +$1.55
-- [baseline-favorit/B-1] Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats? | beli Yes @ 94.7c | masuk 05 Nov 08:40 WIB | kini 99.1c | P/L +$0.46
-- [baseline-favorit/B-1] Will Mary Peltola win the Alaska Senate race in 2026? | beli Yes @ 95.0c | masuk 05 Nov 08:40 WIB | kini 99.1c | P/L +$0.43
-- [baseline-favorit/B-1] Will Pedro Sánchez be the next Prime Minister of Spain? | beli No @ 89.8c | masuk 07 Nov 08:29 WIB | kini 88.3c | P/L -$0.17
-- [baseline-favorit/B-1] Will the Fed increase interest rates by 50+ bps after the December 2026 meeting? | beli No @ 90.0c | masuk 11 Nov 08:32 WIB | kini 89.5c | P/L -$0.06
+- [baseline-favorit/B-1] Will Benjamin Netanyahu be the next Prime Minister of Israel? | beli No @ 67.5c | masuk 02 Oct 21:29 WIB | kini 79.7c | P/L +$1.81
+- [baseline-favorit/B-1] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 54.4c | masuk 02 Oct 21:29 WIB | kini 36.6c | P/L -$3.26
+- [fade-favorit/F-329e93] Will Naftali Bennett be the next Prime Minister of Israel? | beli Yes @ 12.5c | masuk 10 Oct 12:43 WIB | kini 3.4c | P/L -$7.28
+- [fade-favorit/F-329e93] Will Mary Peltola win the Alaska Senate race in 2026? | beli No @ 28.5c | masuk 10 Oct 12:43 WIB | kini 0.4c | P/L -$9.88
+- [fade-favorit/F-329e93] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 31.7c | masuk 13 Oct 07:56 WIB | kini 98.0c | P/L +$20.93
+- [yes-premium/Y-528f27] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 32.9c | masuk 15 Oct 20:00 WIB | kini 98.0c | P/L +$19.85
+- [yes-premium/Y-528f27] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 53.5c | masuk 15 Oct 20:00 WIB | kini 36.6c | P/L -$3.15
+- [claude-A/A-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 78.0c | masuk 28 Oct 08:29 WIB | kini 92.5c | P/L +$1.86
+- [baseline-favorit/B-1] Will Bilibili Gaming win Worlds 2026? | beli No @ 85.7c | masuk 02 Nov 08:38 WIB | kini 62.4c | P/L -$2.72
+- [claude-A/A-1] US announces end of Iranian blockade by December 31, 2026? | beli No @ 61.4c | masuk 03 Nov 08:34 WIB | kini 72.9c | P/L +$1.86
+- [claude-A/A-1] US announces end of Iranian blockade by November 15, 2026? | beli No @ 92.5c | masuk 04 Nov 08:33 WIB | kini 98.1c | P/L +$0.61
+- [baseline-favorit/B-1] Will Puma Shen win the next Taipei Mayor election? | beli No @ 67.3c | masuk 05 Nov 08:40 WIB | kini 65.5c | P/L -$0.27
+- [baseline-favorit/B-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 77.5c | masuk 05 Nov 08:40 WIB | kini 92.5c | P/L +$1.94
+- [baseline-favorit/B-1] Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats? | beli Yes @ 94.7c | masuk 05 Nov 08:40 WIB | kini 99.4c | P/L +$0.50
+- [baseline-favorit/B-1] Will Mary Peltola win the Alaska Senate race in 2026? | beli Yes @ 95.0c | masuk 05 Nov 08:40 WIB | kini 99.7c | P/L +$0.49
+- [baseline-favorit/B-1] Will Pedro Sánchez be the next Prime Minister of Spain? | beli No @ 89.8c | masuk 07 Nov 08:29 WIB | kini 84.4c | P/L -$0.61
+- [baseline-favorit/B-1] Will the Fed increase interest rates by 50+ bps after the December 2026 meeting? | beli No @ 90.0c | masuk 11 Nov 08:32 WIB | kini 90.8c | P/L +$0.09
 - [baseline-favorit/B-1] LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs | beli Gen.G @ 63.5c | masuk 11 Nov 08:32 WIB | kini 62.5c | P/L -$0.16
-- [fade-favorit/F-18b198] Israel x Iran ceasefire continues through November 22? | beli No @ 11.5c | masuk 11 Nov 08:32 WIB | kini 8.5c | P/L -$2.61
+- [fade-favorit/F-18b198] Israel x Iran ceasefire continues through November 22? | beli No @ 11.5c | masuk 11 Nov 08:32 WIB | kini 10.5c | P/L -$0.87
 Selesai: 54 posisi, menang 24.
