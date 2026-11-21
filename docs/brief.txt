@@ -1,40 +1,40 @@
 Analisis kandidat Polymarket berikut. Untuk tiap market beri estimasi probabilitas
 kamu, selisih dengan harga pasar, keyakinan (rendah/sedang/tinggi), dan alasan singkat.
 
-- Another Fed rate hike in 2026? | harga: Yes 97% / No 3% | tutup 20 hari | likuiditas $104,656 | https://polymarket.com/event/another-fed-rate-hike-in-2026
-- Will Puma Shen win the next Taipei Mayor election? | harga: Yes 38% / No 62% | tutup 9 hari | likuiditas $389,150 | https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100
-- Will the Fed increase interest rates by 25 bps after the December 2026 meeting? | harga: Yes 92% / No 8% | tutup 20 hari | likuiditas $918,991 | https://polymarket.com/event/fed-decision-in-december-20260729232808632
-- ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Flavio Cobolli | harga: Carlos Alcaraz 80% / Flavio Cobolli 20% | tutup 4 hari | likuiditas $106,152 | https://polymarket.com/event/atp-alcaraz-cobolli-2026-11-17
-- US announces end of Iranian blockade by December 31, 2026? | harga: Yes 11% / No 89% | tutup 42 hari | likuiditas $151,133 | https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080
-- Will Jensen Huang rejoin NVIDIA by December 31, 2026? | harga: Yes 5% / No 95% | tutup 42 hari | likuiditas $211,979 | https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt
-- Israel x Iran ceasefire continues through November 30? | harga: Yes 84% / No 16% | tutup 11 hari | likuiditas $62,419 | https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963
-- Will Bitcoin dip to $60,000 in November? | harga: Yes 72% / No 28% | tutup 11 hari | likuiditas $70,674 | https://polymarket.com/event/what-price-will-bitcoin-hit-in-november-2026
-- Will Pedro Sánchez be the next Prime Minister of Spain? | harga: Yes 13% / No 87% | tutup 10 hari | likuiditas $228,594 | https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443
-- Will PSOE win the most seats in the 2026 Spanish general election? | harga: Yes 22% / No 78% | tutup 10 hari | likuiditas $213,016 | https://polymarket.com/event/spain-general-election-winner
+- Will there be no change in Fed interest rates after the December 2026 meeting? | harga: Yes 8% / No 92% | tutup 19 hari | likuiditas $440,378 | https://polymarket.com/event/fed-decision-in-december-20260729232808632
+- Will Puma Shen win the next Taipei Mayor election? | harga: Yes 35% / No 65% | tutup 8 hari | likuiditas $363,641 | https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100
+- Another Fed rate hike in 2026? | harga: Yes 91% / No 9% | tutup 19 hari | likuiditas $120,239 | https://polymarket.com/event/another-fed-rate-hike-in-2026
+- Will the Fed Hike–Pause–Pause in the next three decisions (Sep–Oct–Dec)? | harga: Yes 8% / No 92% | tutup 19 hari | likuiditas $90,716 | https://polymarket.com/event/fed-decisions-sepdec
+- Will Bitcoin dip to $45,000 by December 31, 2026? | harga: Yes 21% / No 79% | tutup 41 hari | likuiditas $124,225 | https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027
+- Will Jensen Huang rejoin NVIDIA by December 31, 2026? | harga: Yes 6% / No 94% | tutup 41 hari | likuiditas $171,247 | https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt
+- Will 1 Fed rate hike happen in 2026? | harga: Yes 9% / No 91% | tutup 41 hari | likuiditas $92,230 | https://polymarket.com/event/how-many-fed-rate-hikes-in-2026-20260623190717369
+- Will Bitcoin reach $70,000 in November? | harga: Yes 8% / No 92% | tutup 10 hari | likuiditas $68,407 | https://polymarket.com/event/what-price-will-bitcoin-hit-in-november-2026
+- Israel x Iran ceasefire continues through November 30? | harga: Yes 84% / No 16% | tutup 10 hari | likuiditas $55,575 | https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963
+- Will Pedro Sánchez be the next Prime Minister of Spain? | harga: Yes 12% / No 88% | tutup 9 hari | likuiditas $159,909 | https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443
 
 ===== POSISI SIMULASI SAAT INI (kirim juga ini ke Claude) =====
-- [baseline-favorit/B-1] Will Benjamin Netanyahu be the next Prime Minister of Israel? | beli No @ 67.5c | masuk 02 Oct 21:29 WIB | kini 79.1c | P/L +$1.72
-- [baseline-favorit/B-1] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 54.4c | masuk 02 Oct 21:29 WIB | kini 37.7c | P/L -$3.06
-- [fade-favorit/F-329e93] Will Naftali Bennett be the next Prime Minister of Israel? | beli Yes @ 12.5c | masuk 10 Oct 12:43 WIB | kini 6.7c | P/L -$4.64
+- [baseline-favorit/B-1] Will Benjamin Netanyahu be the next Prime Minister of Israel? | beli No @ 67.5c | masuk 02 Oct 21:29 WIB | kini 80.2c | P/L +$1.88
+- [baseline-favorit/B-1] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 54.4c | masuk 02 Oct 21:29 WIB | kini 35.1c | P/L -$3.54
+- [fade-favorit/F-329e93] Will Naftali Bennett be the next Prime Minister of Israel? | beli Yes @ 12.5c | masuk 10 Oct 12:43 WIB | kini 5.1c | P/L -$5.88
 - [fade-favorit/F-329e93] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 31.7c | masuk 13 Oct 07:56 WIB | kini 97.7c | P/L +$20.82
 - [yes-premium/Y-528f27] Will Aleksandar Vučić be the next Prime Minister of Serbia? | beli No @ 32.9c | masuk 15 Oct 20:00 WIB | kini 97.7c | P/L +$19.74
-- [yes-premium/Y-528f27] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 53.5c | masuk 15 Oct 20:00 WIB | kini 37.7c | P/L -$2.95
-- [claude-A/A-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 78.0c | masuk 28 Oct 08:29 WIB | kini 97.1c | P/L +$2.45
-- [claude-A/A-1] US announces end of Iranian blockade by December 31, 2026? | beli No @ 61.4c | masuk 03 Nov 08:34 WIB | kini 88.6c | P/L +$4.43
-- [baseline-favorit/B-1] Will Puma Shen win the next Taipei Mayor election? | beli No @ 67.3c | masuk 05 Nov 08:40 WIB | kini 62.5c | P/L -$0.72
-- [baseline-favorit/B-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 77.5c | masuk 05 Nov 08:40 WIB | kini 97.1c | P/L +$2.53
-- [baseline-favorit/B-1] Will Pedro Sánchez be the next Prime Minister of Spain? | beli No @ 89.8c | masuk 07 Nov 08:29 WIB | kini 87.5c | P/L -$0.27
-- [baseline-favorit/B-1] Will the Fed increase interest rates by 50+ bps after the December 2026 meeting? | beli No @ 90.0c | masuk 11 Nov 08:32 WIB | kini 96.0c | P/L +$0.67
-- [fade-favorit/F-18b198] Israel x Iran ceasefire continues through November 22? | beli No @ 11.5c | masuk 11 Nov 08:32 WIB | kini 5.5c | P/L -$5.22
-- [baseline-favorit/B-1] Will Bitcoin dip to $57,500 in November? | beli No @ 70.7c | masuk 15 Nov 13:55 WIB | kini 61.5c | P/L -$1.30
-- [baseline-favorit/B-1] Will Bitcoin dip to $45,000 by December 31, 2026? | beli No @ 93.3c | masuk 15 Nov 13:55 WIB | kini 88.9c | P/L -$0.47
-- [fade-favorit/F-18b198] Will Pedro Sánchez be the next Prime Minister of Spain? | beli Yes @ 15.2c | masuk 16 Nov 14:00 WIB | kini 12.6c | P/L -$1.72
-- [fade-favorit/F-18b198] Will PSOE win the most seats in the 2026 Spanish general election? | beli Yes @ 21.5c | masuk 16 Nov 14:00 WIB | kini 21.5c | P/L +$0.00
-- [fade-favorit/F-18b198] US x Iran Effective Ceasefire by November 22? | beli No @ 29.5c | masuk 17 Nov 15:16 WIB | kini 67.5c | P/L +$12.88
-- [fade-favorit/F-18b198] Next White House Press Secretary announced by November 30, 2026? | beli Yes @ 20.5c | masuk 17 Nov 15:16 WIB | kini 16.5c | P/L -$1.95
-- [fade-favorit/F-18b198] Will Predict.fun launch a token by November 30, 2026? | beli Yes @ 14.8c | masuk 17 Nov 15:16 WIB | kini 7.9c | P/L -$4.68
-- [fade-favorit/F-18b198] Will Google have the best AI model at the end of November 2026? | beli No @ 14.5c | masuk 17 Nov 15:16 WIB | kini 4.5c | P/L -$6.90
-- [fade-favorit/F-18b198] Will Bitcoin dip to $57,500 in November? | beli Yes @ 24.6c | masuk 17 Nov 15:16 WIB | kini 38.6c | P/L +$5.64
-- [baseline-favorit/B-1] Will Jensen Huang rejoin NVIDIA by December 31, 2026? | beli No @ 92.7c | masuk 18 Nov 14:49 WIB | kini 94.8c | P/L +$0.23
-- [baseline-favorit/B-1] US x Iran Effective Ceasefire by November 22? | beli No @ 62.5c | masuk 18 Nov 14:49 WIB | kini 67.5c | P/L +$0.80
-Selesai: 60 posisi, menang 27.
+- [yes-premium/Y-528f27] Will Gadi Eizenkot be the next Prime Minister of Israel? | beli No @ 53.5c | masuk 15 Oct 20:00 WIB | kini 35.1c | P/L -$3.44
+- [claude-A/A-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 78.0c | masuk 28 Oct 08:29 WIB | kini 96.9c | P/L +$2.42
+- [claude-A/A-1] US announces end of Iranian blockade by December 31, 2026? | beli No @ 61.4c | masuk 03 Nov 08:34 WIB | kini 86.8c | P/L +$4.13
+- [baseline-favorit/B-1] Will Puma Shen win the next Taipei Mayor election? | beli No @ 67.3c | masuk 05 Nov 08:40 WIB | kini 65.5c | P/L -$0.27
+- [baseline-favorit/B-1] US announces end of Iranian blockade by November 30, 2026? | beli No @ 77.5c | masuk 05 Nov 08:40 WIB | kini 96.9c | P/L +$2.50
+- [baseline-favorit/B-1] Will Pedro Sánchez be the next Prime Minister of Spain? | beli No @ 89.8c | masuk 07 Nov 08:29 WIB | kini 88.2c | P/L -$0.18
+- [baseline-favorit/B-1] Will the Fed increase interest rates by 50+ bps after the December 2026 meeting? | beli No @ 90.0c | masuk 11 Nov 08:32 WIB | kini 98.2c | P/L +$0.90
+- [fade-favorit/F-18b198] Israel x Iran ceasefire continues through November 22? | beli No @ 11.5c | masuk 11 Nov 08:32 WIB | kini 3.8c | P/L -$6.74
+- [baseline-favorit/B-1] Will Bitcoin dip to $45,000 by December 31, 2026? | beli No @ 93.3c | masuk 15 Nov 13:55 WIB | kini 79.0c | P/L -$1.53
+- [fade-favorit/F-18b198] Will Pedro Sánchez be the next Prime Minister of Spain? | beli Yes @ 15.2c | masuk 16 Nov 14:00 WIB | kini 11.8c | P/L -$2.21
+- [fade-favorit/F-18b198] Will PSOE win the most seats in the 2026 Spanish general election? | beli Yes @ 21.5c | masuk 16 Nov 14:00 WIB | kini 24.5c | P/L +$1.40
+- [fade-favorit/F-18b198] US x Iran Effective Ceasefire by November 22? | beli No @ 29.5c | masuk 17 Nov 15:16 WIB | kini 59.5c | P/L +$10.17
+- [fade-favorit/F-18b198] Next White House Press Secretary announced by November 30, 2026? | beli Yes @ 20.5c | masuk 17 Nov 15:16 WIB | kini 15.5c | P/L -$2.44
+- [fade-favorit/F-18b198] Will Predict.fun launch a token by November 30, 2026? | beli Yes @ 14.8c | masuk 17 Nov 15:16 WIB | kini 4.5c | P/L -$7.00
+- [fade-favorit/F-18b198] Will Google have the best AI model at the end of November 2026? | beli No @ 14.5c | masuk 17 Nov 15:16 WIB | kini 3.4c | P/L -$7.66
+- [baseline-favorit/B-1] Will Jensen Huang rejoin NVIDIA by December 31, 2026? | beli No @ 92.7c | masuk 18 Nov 14:49 WIB | kini 94.5c | P/L +$0.19
+- [baseline-favorit/B-1] US x Iran Effective Ceasefire by November 22? | beli No @ 62.5c | masuk 18 Nov 14:49 WIB | kini 59.5c | P/L -$0.48
+- [baseline-favorit/B-1] Another Fed rate hike in 2026? | beli Yes @ 92.2c | masuk 21 Nov 14:32 WIB | kini 91.2c | P/L -$0.11
+- [fade-favorit/F-18b198] Will Bitcoin reach $70,000 in November? | beli Yes @ 9.5c | masuk 21 Nov 14:32 WIB | kini 7.5c | P/L -$2.11
+Selesai: 62 posisi, menang 28.
